@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Recolección y análisis de requisitos',
+    numeroUnidad: '3',
+    tituloUnidad: ' Diseño orientado a objetos',
   },
   menuPrincipal: {
     menu: [
@@ -15,43 +15,44 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Técnicas de recopilación de requisitos',
+        titulo: 'Principios SOLID',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Entrevistas',
+            titulo:
+              'Introducción al diseño, orientado a los objetos y principios SOLID',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Encuestas y cuestionarios',
+            titulo: 'Principio de Responsabilidad Única (SRP)',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Observación directa',
+            titulo: 'Principio de Abierto/Cerrado (OCP)',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Talleres de trabajo (<em>workshops</em>)',
+            titulo: 'Principio de Sustitución de Liskov (LSP)',
             hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Revisión de documentos existentes',
+            titulo: 'Principio de Segregación de Interfaces (ISP)',
             hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: '<em>Brainstorming</em> y <em>Focus Groups</em>',
+            titulo: 'Principio de Inversión de Dependencias (DIP)',
             hash: 't_1_6',
           },
         ],
@@ -60,7 +61,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Priorización de necesidades',
+        titulo: 'Patrones de diseño (Factory, Singleton)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -114,188 +115,6 @@ export default {
             numero: '3.3',
             titulo: 'Matriz de trazabilidad de requisitos',
             hash: 't_3_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Uso de diagramas UML',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Elementos básicos de UML',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Tipos principales de diagramas UML',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Uso de diagramas UML en el análisis de requisitos',
-            hash: 't_4_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.4',
-            titulo: 'Uso de diagramas UML en el diseño del sistema',
-            hash: 't_4_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.5',
-            titulo: 'Herramientas para crear diagramas UML',
-            hash: 't_4_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.6',
-            titulo: 'Buenas prácticas en la creación de diagramas UML',
-            hash: 't_4_6',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: 'Identificación de casos de uso',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Elementos de un caso de uso',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Técnicas para identificar casos de uso',
-            hash: 't_5_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.3',
-            titulo: 'Criterios para definir un caso de uso',
-            hash: 't_5_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.4',
-            titulo: 'Representación gráfica de casos de uso',
-            hash: 't_5_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.5',
-            titulo: 'Documentación de casos de uso',
-            hash: 't_5_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.6',
-            titulo: 'Pasos para construir un diagrama de casos de uso',
-            hash: 't_5_6',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
-        numero: '6',
-        titulo: 'Modelado de datos y procesos',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Modelado de datos',
-            hash: 't_6_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo: 'Modelado de procesos',
-            hash: 't_6_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.3',
-            titulo: 'Técnicas y herramientas de modelado',
-            hash: 't_6_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.4',
-            titulo:
-              'Integración entre el modelo de datos y el modelo de procesos',
-            hash: 't_6_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.5',
-            titulo: 'Errores comunes en el modelado de datos y procesos',
-            hash: 't_6_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.6',
-            titulo: 'Aplicaciones prácticas del modelado',
-            hash: 't_6_6',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
-        numero: '7',
-        titulo: 'Principios SOLID',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.1',
-            titulo:
-              'Introducción al diseño, orientado a los objetos y principios SOLID',
-            hash: 't_7_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.2',
-            titulo: 'Principio de Responsabilidad Única (SRP)',
-            hash: 't_7_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.3',
-            titulo: 'Principio de Abierto/Cerrado (OCP)',
-            hash: 't_7_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.4',
-            titulo: 'Principio de Sustitución de Liskov (LSP)',
-            hash: 't_7_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.5',
-            titulo: 'Principio de Segregación de Interfaces (ISP)',
-            hash: 't_7_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.6',
-            titulo: 'Principio de Inversión de Dependencias (DIP)',
-            hash: 't_7_6',
           },
         ],
       },

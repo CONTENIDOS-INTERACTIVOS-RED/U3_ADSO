@@ -43,7 +43,9 @@
   &-13
     background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(252, 238, 181, 1) 35%, rgba(252, 238, 181, 1) 65%, rgba(255, 255, 255, 1) 100%)
   &-info
-    background-color: #E8EEFD
+    background-image: url("../assets/bg/bg-info.svg") !important
+    background-position: top
+
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -55,6 +57,8 @@
     border: 2px dotted #866D08
   &-2
     border: 2px dotted #AA52F9
+  &-3
+    border: 2px dashed #866D08
 
 .border-top
   &.color-primario
@@ -85,13 +89,14 @@
     background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
+
 // Variables
 $custom-card-border-radius: 0px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
 $custom-card-text-bg: #FFF
 $custom-card-text-padding: 15px
 $custom-card-text-font-size: 14px
-$custom-card-img-height: 322px
+$custom-card-img-height: 203px
 .custom-image-card
   border-radius: $custom-card-border-radius
   overflow: hidden
@@ -192,7 +197,7 @@ $custom-card-img-height: 322px
   background-color: #F8BC17
 
 .img-infografica__card, .img-infografica-b__card
-  width: 350px !important
+  width: 450px !important
   
 .img-infografica__item__numero
   font-weight: 900
@@ -250,3 +255,21 @@ th.bg-color-tabla
   color: #fff !important
 
 
+
+
+.bg-icono-fondo
+  position: relative
+  overflow: hidden
+
+  &::after
+    content: ""
+    position: absolute
+    right: 0
+    bottom: 0
+    width: 190px
+    height: 126px
+    background-image: url('../assets/curso/tema2/7.svg')
+    background-repeat: no-repeat
+    background-size: contain
+    pointer-events: none
+    z-index: 1
