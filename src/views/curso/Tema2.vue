@@ -258,7 +258,7 @@
 
           p Los pasos para implementar patrón de diseño Factory, son:
 
-      .bg-full-width.bg-color-info.mb-5
+      .bg-full-width.bg-fondo-info.mb-5
         .p-4.p-md-5
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-10
