@@ -131,55 +131,122 @@
 
       p(data-aos="fade-left").mb-4 En este ejemplo, la clase Matrícula funciona como una entidad intermedia que vincula a Estudiante con Curso, lo cual refleja una relación de muchos a muchos. Las flechas y multiplicidades ayudan a interpretar que un estudiante puede estar inscrito en varios cursos, y un curso puede tener múltiples estudiantes.
 
+
+      .bg-full-width.bg-color-11
+        .px-4.px-md-5.pb-md-3
+          .row.justify-content-center.mb-5.align-items-center
+            .col-lg-4
+              figure
+                img(src='@/assets/curso/tema3/10.png', alt='')
+            .col-lg-8
       
+              SlyderF(columnas="col-12 col-lg-6")
+                .custom-image-card-2.h-100
+                  img.custom-image-card__image(src="@/assets/curso/tema3/icono-1.png" alt="")
+                  .custom-image-card__text.p-4
+                    p.mb-0 Los nombres de clases y su jerarquía, para identificar si existen clases padres o interfaces.
 
+                .custom-image-card-2.h-100
+                  img.custom-image-card__image(src="@/assets/curso/tema3/icono-2.png" alt="")
+                  .custom-image-card__text.p-4
+                    p.mb-0 Los atributos y métodos, para comprender qué datos maneja cada clase y cómo se comporta.
+
+                .custom-image-card-2.h-100
+                  img.custom-image-card__image(src="@/assets/curso/tema3/icono-3.png" alt="")
+                  .custom-image-card__text.p-4
+                    p.mb-0 Las relaciones, para entender cómo interactúan los objetos y qué dependencias existen entre ellos.
+
+                .custom-image-card-2.h-100
+                  img.custom-image-card__image(src="@/assets/curso/tema3/icono-4.png" alt="")
+                  .custom-image-card__text.p-4
+                    p.mb-0 Las multiplicidades, que indican la cantidad de instancias involucradas en la relación.
+
+                .custom-image-card-2.h-100
+                  img.custom-image-card__image(src="@/assets/curso/tema3/icono-5.png" alt="")
+                  .custom-image-card__text.p-4
+                    p.mb-0 La visibilidad, que revela qué elementos son accesibles desde otras clases.
 
       
+      .bg-color-4.mb-5(data-aos="fade-up")
+        .row.justify-content-center.align-items-center
+          .col-lg
+            .p-4
+              p.mb-4(data-aos="fade-up") Esta interpretación es útil tanto en la fase de diseño como en la de revisión, y también sirve como guía para la codificación del sistema.
+              p.mb-0 El dominio de la construcción e interpretación de diagramas de clases permite a los desarrolladores estructurar sus aplicaciones de manera coherente y reutilizable. Además, actúa como una herramienta de comunicación clara entre analistas, diseñadores y programadores, promoviendo el desarrollo de sistemas más robustos y organizados.
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema3/11.svg', alt='')
+
+      #t_3_4.titulo-segundo(data-aos="flip-up")
+        h2 #[span 3.4] Elementos fundamentales de un diagrama de secuencia
+
+      p.mb-4 El diagrama de secuencia es una herramienta esencial en el modelado dinámico de sistemas orientados a objetos, ya que permite representar cómo interactúan los objetos entre sí a lo largo del tiempo para cumplir una funcionalidad específica.
+
+      .bg-full-width.bg-color-8.mb-lg-5
+        .px-4.p-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-4
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema3/12.png', alt='')
       
-
+            .col-lg-8.text-white
+              h2.mb-4(data-aos="flip-up") Elementos fundamentales de un diagrama de secuencia 
+              p.mb-4(data-aos="fade-right") En el PDF Elementos fundamentales de un diagrama de secuencia, se explican con detalle los componentes clave de esta notación, como objetos, líneas de vida, activaciones, mensajes y bloques de control. Este enfoque facilita la comprensión del flujo de información y del comportamiento del sistema, promoviendo un diseño más claro, estructurado y coherente.
       
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_9.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Elementos fundamentales de un diagrama de secuencia 
 
+      #t_3_5.titulo-segundo(data-aos="flip-up")
+        h2 #[span 3.5] Construcción e interpretación de diagramas de secuencia
+
+      p(data-aos="fade-up").mb-4 El proceso de construcción e interpretación de diagramas de secuencia permite representar de forma precisa cómo interactúan los objetos de un sistema en un orden temporal específico. Esta representación facilita la comprensión del comportamiento dinámico de un caso de uso, identificando claramente qué objetos se comunican, qué mensajes se intercambian y cuándo lo hacen (Teniente López et al., 2015).
+
+      .bg-full-width.bg-color-8.mb-lg-5
+        .px-4.p-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-8.text-white
+              h2.mb-4(data-aos="flip-up") Construcción e interpretación de diagramas de secuencia 
+              p.mb-4(data-aos="fade-right") En el PDF Construcción e interpretación de diagramas de secuencia, se exponen los pasos clave para diseñar correctamente este tipo de diagramas, desde la identificación de participantes hasta la inclusión de condiciones y estructuras de control. Esta herramienta resulta fundamental para validar la lógica del sistema, comunicar su funcionamiento y orientar una implementación precisa y coherente.
       
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_10.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Construcción e interpretación de diagramas de secuencia 
       
-      
-      
-      
-      
-      
-      
+            .col-lg-4
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema3/13.png', alt='')
 
 
-
-      
-      
-      
-      
-      
-      
-      
+      #t_3_6.titulo-segundo(data-aos="flip-up")
+        h2 #[span 3.6] Relación entre diagramas de clases y de secuencia
 
 
-      
-      
-      
-      
+      .bg-full-width.bg-color-11.mb-5
+        .p-4.p-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema3/14.svg", data-aos="zoom-in", style="max-width: 610px")
+            .col-lg
+              p(data-aos="fade-left").mb-4 Para conocer sobre esta temática, lo invitamos a escuchar el siguiente podcast.
+              
+              TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
+                texto="Relación entre diagramas de clases y de secuencia"
+                tiempo
+                :audio="require('../../assets/curso/podcast/podcast1.mp3')"
+              )
+      p(data-aos="fade-left").mb-4 Para finalizar, lo invitamos a ver el siguiente video, el cual presenta la herramienta StarUML, la cual permite construir los diferentes diagramas UML.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      .bg-full-width.bg-fondo-slider.mb-0
+        .p-4.p-md-5
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/r547Ppw446Q?si=2zCQvMUQQ5-pB13h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
@@ -197,15 +264,11 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/106466" target="_blank" rel="noopener noreferrer") Jiménez de Parga, C. (2014). UML Aplicaciones en Java y C++: ( ed.). RA-MA Editorial.  
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.youtube.com/watch?v=vSx30CDT4i4" target="_blank" rel="noopener noreferrer") videosdeinformatica. [@Videosdeinformatica] (2021, 7 de marzo). UML - Cómo diseñar diagramas de secuencia. [Video]. YouTube. 
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
@@ -223,37 +286,40 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'Diseño orientado a objetos y patrones de diseño',
         titulo: 'Ponte a prueba',
         introduccion:
-          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+          'Demuestra lo que aprendiste sobre principios SOLID, patrones de diseño y UML en esta unidad.',
         barajarPreguntas: true,
         preguntas: [
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál de los siguientes principios SOLID promueve la separación de responsabilidades en una clase?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto:
+                  'Principio de Inversión de Dependencias (Dependency Inversion Principle)',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto:
+                  'Principio de Sustitución de Liskov (Liskov Substitution Principle)',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Principio de Responsabilidad Única (Single Responsibility Principle)',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Principio de Abierto/Cerrado (Open/Closed Principle)',
                 esCorrecta: false,
               },
             ],
@@ -263,28 +329,30 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Cuál es el objetivo principal del patrón de diseño Singleton?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto:
+                  'Crear múltiples instancias de una clase para mejorar el rendimiento',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto:
+                  'Garantizar que una clase tenga una única instancia accesible globalmente',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Delegar la creación de objetos a una subclase',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Evitar el uso de interfaces',
                 esCorrecta: false,
               },
             ],
@@ -294,28 +362,28 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Qué característica distingue al patrón Factory Method de otros patrones creacionales?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Proporciona una instancia única',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Permite a las subclases decidir qué objeto instanciar',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Reemplaza las relaciones entre objetos',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Define objetos como estructuras planas',
                 esCorrecta: false,
               },
             ],
@@ -324,28 +392,30 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Qué elemento de un diagrama de clases representa una relación de herencia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Línea continua con rombo',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Línea discontinua con flecha',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Línea con triángulo blanco apuntando hacia la superclase',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Línea curva con punto',
                 esCorrecta: false,
               },
             ],
@@ -355,28 +425,28 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Qué describe principalmente un diagrama de secuencia en UML?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'La estructura estática del sistema',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'El ciclo de vida de una clase',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'La interacción temporal entre objetos',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'La relación entre módulos físicos',
                 esCorrecta: false,
               },
             ],

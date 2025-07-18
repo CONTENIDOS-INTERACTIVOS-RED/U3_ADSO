@@ -67,27 +67,44 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo:
-              'Criterios para priorizar (valor de negocio, urgencia, viabilidad técnica)',
+            titulo: 'Introducción a los patrones de diseño',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Métodos de priorización',
+            titulo: 'Patrones creacionales: visión general',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Herramientas de apoyo en la priorización',
+            titulo: 'Patrón Singleton: concepto y fundamentos',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Resolución de conflictos entre prioridades',
+            titulo: 'Implementación del patrón Singleton',
             hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Patrón Factory Method: concepto y fundamento',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Implementación del patrón Factory Method',
+            hash: 't_2_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.7',
+            titulo: 'Beneficios de implementar patrones de diseño',
+            hash: 't_2_7',
           },
         ],
       },
@@ -95,26 +112,45 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Herramientas de análisis',
+        titulo: 'Diagramas de clases y secuencias',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Diagramas de casos de uso',
+            titulo:
+              'Introducción al modelado estructural y de comportamiento en UML',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Historias de usuario',
+            titulo: 'Elementos básicos de un diagrama de clase',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Matriz de trazabilidad de requisitos',
+            titulo: 'Construcción e interpretación de diagramas de clases',
             hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Elementos fundamentales de un diagrama de secuencia',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Construcción e interpretación de diagramas de secuencia',
+            hash: 't_3_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'Relación entre diagramas de clases y de secuencia',
+            hash: 't_3_6',
           },
         ],
       },
@@ -156,101 +192,96 @@ export default {
   referencias: [
     {
       referencia:
-        'Gil Pascual, J. A. (2016). Técnicas e instrumentos para la recogida de información: ( ed.). UNED - Universidad Nacional de Educación a Distancia.  ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/48876',
-    },
-    {
-      referencia:
-        'Fresno Chávez, C. (2018). ¿Cómo gestionar la información científico-técnica?: ( ed.). Ciudad Educativa.  ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/36730',
-    },
-    {
-      referencia:
-        'Genero Bocco, M. Cruz Lemus, J. A. & Piattini Velthuis, M. G. (2014). Métodos de investigación en ingeniería del <em>Software</em>: ( ed.). RA-MA Editorial.  ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106450',
-    },
-    {
-      referencia:
-        'Echeverri, J. Aristizábal, M. & González, L. (2013). Reflexiones sobre ingeniería de requisitos y pruebas de <em>Software</em>: ( ed.). Corporación Universitaria Remington. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/68913 ',
-    },
-    {
-      referencia:
-        'Universidad Politécnica Salesiana. (2021). Priorización de requisitos para una adecuada calidad de <em>Software</em>. ',
+        'García Carmona, J. (2012). SOLID y GRASP: Buenas prácticas hacia el éxito en el desarrollo de software. Universidad de Sevilla.',
       link:
-        'https://dspace.ups.edu.ec/bitstream/123456789/20957/1/UPS-GT003395.pdf',
+        'https://jbravomontero.files.wordpress.com/2012/12/solid-y-grasp-buenas-practicas-hacia-el-exito-en-el-desarrollo-de-software.pdf',
     },
     {
       referencia:
-        'Zapata Jaramillo, C. M. (2006). Alineación entre metas organizacionales y elicitación de requisitos del <em>Software</em>: ( ed.). Red Dyna.  ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/304',
+        'Stack Overflow Community. (2019). Principios SOLID [PDF]. RIP Tutorial.',
+      link: 'https://riptutorial.com/Download/solid-principles-es.pdf',
     },
     {
       referencia:
-        'Genero Bocco, M. Cruz Lemus, J. A. & Piattini Velthuis, M. G. (2014). Métodos de investigación en ingeniería del <em>Software</em>: ( ed.). RA-MA Editorial.  ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106450',
+        'Piattini Velthuis, M. & Garzás Parra, J. (2015). Fábricas de software: experiencias, tecnologías y organización: ( ed.). RA-MA Editorial.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106389',
+    },
+    {
+      referencia:
+        'Sampedro Hernández, J. L. (2011). Conocimiento y empresa: la industria del software en México: ( ed.). Plaza y Valdés (México).',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/39007',
+    },
+    {
+      referencia:
+        'Teniente López, E. Costal Costa, D. & Sancho Samsó, M. R. (2015). Especificación de sistemas software en UML: ( ed.). Universitat Politècnica de Catalunya.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/61407',
+    },
+    {
+      referencia:
+        'Conesa Caralt, J. & Casas Roma, J. (2014). Diseño conceptual de bases de datos en UML: ( ed.). Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/57635',
     },
   ],
   glosario: [
     {
-      termino: 'Análisis de requisitos',
+      termino: 'Abstracción',
       significado:
-        'proceso mediante el cual se estudian, refinan y documentan las necesidades y expectativas de los usuarios respecto a un sistema o producto.',
+        'proceso mediante el cual se identifican las características esenciales de un objeto, ignorando las irrelevantes. En programación orientada a objetos, permite definir interfaces claras sin exponer los detalles internos.',
     },
     {
-      termino: 'Caso de uso',
+      termino: 'Clase',
       significado:
-        'técnica de recopilación que describe cómo los usuarios interactúan con el sistema para lograr un objetivo específico.',
+        'plantilla o modelo a partir del cual se crean objetos. Define atributos y métodos que representan las propiedades y comportamientos de una entidad dentro del sistema.',
     },
     {
-      termino: 'Entrevistas estructuradas',
+      termino: 'Cohesión',
       significado:
-        'método de recopilación de requisitos en el que se realizan preguntas previamente definidas a los usuarios o interesados para obtener información precisa. ',
+        'medida del grado en que los elementos de una clase están relacionados entre sí. Alta cohesión sugiere que una clase tiene una única responsabilidad bien definida, en línea con el Principio de Responsabilidad Única (SRP).',
     },
     {
-      termino: 'Encuestas',
+      termino: 'Dependencia',
       significado:
-        'herramienta utilizada para recopilar datos de una amplia audiencia mediante cuestionarios diseñados para identificar necesidades y requisitos.',
+        'relación entre clases u objetos donde uno necesita del otro para funcionar. El Principio de Inversión de Dependencias (DIP) busca que estas relaciones se basen en abstracciones, no en implementaciones concretas.',
     },
     {
-      termino: 'Escucha activa',
+      termino: 'Diagrama de clases',
       significado:
-        'habilidad utilizada durante la recopilación de requisitos que implica prestar atención completa al interlocutor, comprendiendo sus necesidades explícitas e implícitas.',
+        'representación estática de las clases de un sistema, sus atributos, métodos y relaciones (asociaciones, herencia, composición, etc.). Es fundamental en el modelado estructural de sistemas orientados a objetos.',
     },
     {
-      termino: 'Historias de usuario',
+      termino: 'Diagrama de secuencia',
       significado:
-        'Descripciones breves de funcionalidades vistas desde la perspectiva del usuario final, utilizadas para entender mejor las necesidades del cliente.',
+        'modelo dinámico que ilustra cómo los objetos interactúan entre sí mediante el intercambio de mensajes a lo largo del tiempo. Se utiliza para describir escenarios específicos o casos de uso.',
     },
     {
-      termino: 'Matriz de priorización',
+      termino: 'Encapsulamiento',
       significado:
-        'herramienta de análisis que permite clasificar y ordenar requisitos o necesidades según criterios como el valor, costo o riesgo.',
+        'principio que implica ocultar los detalles internos de una clase y exponer solo lo necesario a través de interfaces públicas. Favorece la seguridad y la modularidad del código.',
     },
     {
-      termino: 'Priorización MoSCoW',
+      termino: 'Patrón de Método de Fábrica (<em>Factory Method</em>)',
       significado:
-        'Técnica que categoriza los requisitos en cuatro grupos: <em>Must have</em> (deben tener), <em>Should have</em> (deberían tener), <em>Could have</em> (podrían tener) y <em>Won’t have</em> (no se tendrán por ahora).',
+        'patrón de diseño creacional que define una interfaz para crear objetos, pero permite que las subclases decidan qué clase instanciar. Promueve la flexibilidad y reutilización del código.',
     },
     {
-      termino: 'Prototipado',
+      termino: 'Herencia',
       significado:
-        'Método de recopilación que consiste en crear representaciones visuales preliminares de un sistema para clarificar y validar requisitos.',
+        'mecanismo que permite a una clase derivar de otra, heredando sus atributos y comportamientos. Facilita la reutilización y la extensión de funcionalidades.',
     },
     {
-      termino: 'Reuniones de enfoque (<em>Focus Group</em>)',
+      termino: 'Interface',
       significado:
-        'Técnica que reúne a usuarios o interesados en sesiones grupales para discutir y explorar necesidades comunes sobre un sistema.',
+        'contrato que define un conjunto de métodos sin implementar. Las clases que implementan una interfaz se comprometen a definir esos métodos, lo que promueve la interoperabilidad y el cumplimiento del Principio de Segregación de Interfaces (ISP).',
     },
     {
-      termino: '<em>Software</em> de gestión de requisitos',
+      termino: 'Liskov (Principio de Sustitución de Liskov)',
       significado:
-        'Aplicaciones diseñadas para documentar, organizar, rastrear y priorizar requisitos a lo largo del ciclo de vida del proyecto.',
+        'principio SOLID que establece que una subclase debe poder sustituir a su clase base sin alterar el comportamiento esperado del programa. Garantiza coherencia en la jerarquía de clases.',
     },
     {
-      termino: 'Taller de requisitos (<em>Workshop</em>)',
+      termino: 'Singleton',
       significado:
-        'Actividad colaborativa donde los interesados trabajan juntos para definir, refinar y priorizar los requisitos del sistema.',
+        'patrón de diseño que asegura que una clase tenga una única instancia en todo el sistema y proporciona un punto de acceso global a ella. Es útil para controlar recursos compartidos como conexiones o configuraciones.',
     },
   ],
 }
