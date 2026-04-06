@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'7. Principios SOLID'")
+    BannerInterno(:subTitulo="'1. Principios SOLID'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
       .bg-color-2.mb-5(data-aos="fade-up")

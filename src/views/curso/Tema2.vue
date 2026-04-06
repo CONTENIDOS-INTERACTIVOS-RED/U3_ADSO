@@ -450,7 +450,7 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.fdi.ucm.es/profesor/jpavon/poo/2.14pdoo.pdf" target="_blank" rel="noopener noreferrer") Pavón Mestras, J. (2004). Patrones de diseño orientado a objetos. Universidad Complutense de Madrid. 
+                a(href="https://ocw.uc3m.es/pluginfile.php/1436/mod_page/content/16/patrones_diseno.pdf" target="_blank" rel="noopener noreferrer") Universidad Carlos III de Madrid. (2021). Patrones de diseño [PDF]. OpenCourseWare UC3M. 
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
